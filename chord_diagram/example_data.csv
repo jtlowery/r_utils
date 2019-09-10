@@ -1,0 +1,7 @@
+"from","to","count","color"
+"A","X",2,"red"
+"A","Y",2,"red"
+"B","X",3,"black"
+"B","Y",1,"black"
+"C","Z",1,"blue"
+"C","X",2,"#57E6E8"
