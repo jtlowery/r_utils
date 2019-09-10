@@ -15,6 +15,7 @@ if (!require("assertthat")) {
 }
 if (!require("circlize")) {
   install.packages("circlize", repos=repo)
+  library("circlize")
 }
 
 
