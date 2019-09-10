@@ -4,14 +4,17 @@ Steps to use:
   1. Install R (RStudio for Mac) if not already installed
   2. Create one folder with files to be merged and for output files to be saved to
       * Easiest to create this folder in Desktop and move the folder later to desired research project file (this helps in step 6)
-  2. Download the merge_files.R file or this project
-  3. Put merge_files R file into the newly created folder
-  3. Save files desired to merge into csv (comma separated values) format if not already done so. Make sure all column names have no spaces
+  3. Download the merge_files.R file or this project
+  4. Put merge_files R file into the newly created folder
+  5. Save files desired to merge into csv (comma separated values) format if not already done so. Make sure all column names have no spaces
       * any spreadsheet software should allow saving into this format when doing 'Save As' or the equivalent
       * it can be a good precaution to take to enclose all text cells with quotation marks (particularly if there may be commas in them)
-  4. Open a terminal. Then run `chmod +x pathtofolder/to/merge_files.R` (e.g. `chmod +x /home/Anne/Project_Folder/merge_files.R`) to make it executable.
+  6. Open a terminal
+  7. Move working directory to the chord_diagram directory in the project
+      * `cd /pathtofolder/` (e.g. `cd /Users/Anne/Downloads/r_utils-master/file_merge/`)
       * To find the path to the folder you can also two finger click (right click) on the folder of your choice, selected "Get Info" and find the path under "Where"
-  5. Run the script on your desired files. See example commands below:
+  8. Run `chmod +x merge_files.R`. This step only needs to be done once.
+  9. Run the script on your desired files. See example commands below:
 
     * Example 1: join abc.csv (patient/sample file) and xyz.csv (database file) where column a in abc.csv is to be compared and merged with column x in xyz.csv
 
